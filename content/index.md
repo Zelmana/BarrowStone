@@ -1,6 +1,8 @@
 ---
-title: Welcome to Quartz
+title: Welcome!
+aliases:
+  - home
+folderOrder: "0"
+noteOrder: "1"
 ---
-
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+This is the test main index page for BarrowStone. Test. Test.
