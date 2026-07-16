@@ -35,15 +35,19 @@ PageTitle.css = `
 .page-title a {
   min-width: 0;
   flex: 1 1 auto;
-  overflow: visible;
-  white-space: normal;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .page-title .icon {
   margin-right: 0;
   width: 60px;
-  height: 60px;
+  height: auto;
+  max-height: 60px;
   flex-shrink: 0;
+  object-fit: contain;
+  display: block;
 }
 
 @media (max-width: 800px) {
@@ -63,7 +67,8 @@ PageTitle.css = `
 
   .page-title .icon {
     width: 32px;
-    height: 32px;
+    height: auto;
+    max-height: 32px;
     margin-right: 0;
   }
 }
