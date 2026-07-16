@@ -28,7 +28,7 @@ PageTitle.css = `
 }
 
 .page-header .page-title {
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .page-title a {

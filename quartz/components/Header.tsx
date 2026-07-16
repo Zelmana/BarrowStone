@@ -13,6 +13,10 @@ header {
   gap: 1.5rem;
 }
 
+header {
+  justify-content: flex-start;
+}
+
 header h1 {
   margin: 0;
   flex: auto;
