@@ -37,7 +37,6 @@ PageTitle.css = `
   flex: 1 1 auto;
   overflow: hidden;
   white-space: nowrap;
-  text-overflow: ellipsis;
 }
 
 .page-title .icon {
