@@ -20,7 +20,7 @@ header h1 {
   flex: auto;
 }
 
-@media all and ($mobile) {
+@media (max-width: 800px) {
   header {
     flex-wrap: wrap;
     align-items: flex-start;

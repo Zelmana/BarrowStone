@@ -47,7 +47,7 @@ PageTitle.css = `
   flex-shrink: 0;
 }
 
-@media all and ($mobile) {
+@media (max-width: 800px) {
   .page-title {
     justify-content: flex-start;
     /* don't push the title down -- keep icon and title inline */
