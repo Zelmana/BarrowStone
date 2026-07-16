@@ -28,10 +28,10 @@ PageTitle.css = `
 
 .page-title a {
   min-width: 0;
+  flex: 1 1 auto;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  display: block;
 }
 
 .page-title .icon {
@@ -44,14 +44,17 @@ PageTitle.css = `
 @media all and ($mobile) {
   .page-title {
     justify-content: flex-start;
-    padding-left: 3rem; /* leave space for the mobile menu */
-    font-size: 1.6rem;
+    /* don't push the title down -- keep icon and title inline */
+    padding-left: 0;
+    width: 100%;
+    font-size: 1.4rem;
     text-align: left;
   }
 
   .page-title .icon {
-    width: 44px;
-    height: 44px;
+    width: 32px;
+    height: 32px;
+    margin-right: 0.5rem;
   }
 }
 `
