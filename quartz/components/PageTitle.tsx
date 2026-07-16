@@ -35,7 +35,7 @@ PageTitle.css = `
 .page-title a {
   min-width: 0;
   flex: 1 1 auto;
-  overflow: hidden;
+  overflow: visible;
   white-space: nowrap;
 }
 
