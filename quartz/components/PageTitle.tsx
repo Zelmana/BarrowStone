@@ -35,9 +35,8 @@ PageTitle.css = `
 .page-title a {
   min-width: 0;
   flex: 1 1 auto;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  overflow: visible;
+  white-space: normal;
 }
 
 .page-title .icon {
@@ -55,12 +54,20 @@ PageTitle.css = `
     width: 100%;
     font-size: 1.4rem;
     text-align: left;
+    gap: 0.25rem;
+  }
+
+  .page-title a {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    min-width: 0;
   }
 
   .page-title .icon {
     width: 32px;
     height: 32px;
-    margin-right: 0.5rem;
+    margin-right: 0;
   }
 }
 `
