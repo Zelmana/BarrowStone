@@ -11,11 +11,25 @@ header {
   align-items: center;
   margin: 2rem 0;
   gap: 1.5rem;
+  flex-wrap: wrap;
 }
 
 header h1 {
   margin: 0;
   flex: auto;
+}
+
+@media (max-width: 800px) {
+  header {
+    align-items: flex-start;
+    margin: 1rem 0 1.25rem;
+    padding: 0 0.5rem;
+    gap: 0.75rem;
+  }
+
+  header h1 {
+    width: 100%;
+  }
 }
 `
 

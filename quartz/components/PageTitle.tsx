@@ -21,12 +21,35 @@ PageTitle.css = `
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  min-width: 0;
+}
+
+.page-title a {
+  min-width: 0;
+  overflow-wrap: anywhere;
 }
 
 .page-title .icon {
-  margin-right: 0.5rem;
+  margin-right: 0;
   width: 60px;
   height: 60px;
+  flex-shrink: 0;
+}
+
+@media (max-width: 800px) {
+  .page-title {
+    justify-content: flex-start;
+    padding-left: 0.25rem;
+    font-size: 1.6rem;
+    text-align: left;
+  }
+
+  .page-title .icon {
+    width: 44px;
+    height: 44px;
+  }
 }
 `
 export default (() => PageTitle) satisfies QuartzComponentConstructor
