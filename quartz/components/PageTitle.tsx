@@ -54,13 +54,10 @@ PageTitle.css = `
     width: 100%;
     font-size: 1.4rem;
     text-align: left;
-    gap: 0.25rem;
+    gap: 0rem;
   }
 
   .page-title a {
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
     min-width: 0;
   }
 
