@@ -25,6 +25,7 @@ PageTitle.css = `
   gap: 0.75rem;
   flex-wrap: nowrap;
   min-width: 0;
+  width: auto;
 }
 
 .page-header .page-title {

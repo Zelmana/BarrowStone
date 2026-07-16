@@ -11,10 +11,8 @@ header {
   align-items: center;
   margin: 2rem 0;
   gap: 1.5rem;
-}
-
-header {
   justify-content: flex-start;
+  width: 100%;
 }
 
 header h1 {
