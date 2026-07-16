@@ -11,7 +11,6 @@ header {
   align-items: center;
   margin: 2rem 0;
   gap: 1.5rem;
-  flex-wrap: wrap;
 }
 
 header h1 {
@@ -19,8 +18,9 @@ header h1 {
   flex: auto;
 }
 
-@media (max-width: 800px) {
+@media all and ($mobile) {
   header {
+    flex-wrap: wrap;
     align-items: flex-start;
     margin: 1rem 0 1.25rem;
     padding: 0 0.5rem;

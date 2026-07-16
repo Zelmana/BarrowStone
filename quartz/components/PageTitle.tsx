@@ -22,13 +22,16 @@ PageTitle.css = `
   align-items: center;
   justify-content: center;
   gap: 0.75rem;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   min-width: 0;
 }
 
 .page-title a {
   min-width: 0;
-  overflow-wrap: anywhere;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: block;
 }
 
 .page-title .icon {
@@ -38,10 +41,10 @@ PageTitle.css = `
   flex-shrink: 0;
 }
 
-@media (max-width: 800px) {
+@media all and ($mobile) {
   .page-title {
     justify-content: flex-start;
-    padding-left: 0.25rem;
+    padding-left: 3rem; /* leave space for the mobile menu */
     font-size: 1.6rem;
     text-align: left;
   }
