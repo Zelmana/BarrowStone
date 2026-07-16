@@ -20,10 +20,15 @@ PageTitle.css = `
   margin: 0;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
+  flex-direction: row;
   gap: 0.75rem;
   flex-wrap: nowrap;
   min-width: 0;
+}
+
+.page-header .page-title {
+  justify-content: center;
 }
 
 .page-title a {
