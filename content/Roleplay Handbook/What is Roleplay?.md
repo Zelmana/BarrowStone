@@ -16,7 +16,7 @@ Roleplaying can take many forms, whether it is single player RPGs, tabletop gami
 Just as there are many different formats of roleplay, there are also varying qualities. To borrow terminology from *Space Station 13*, here are some example labels.
 
 **Low Roleplay (LRP)**
-Low Roleplay puts the least emphasis on quality roleplay. Characters are not limited in design or what they are allowed to do. A character may not even have a developed name, background, or motive. There is little care for remaining in character.
+Low Roleplay puts the least emphasis on quality roleplay. Characters are not limited in design or what they are allowed to do. A character may not even have a developed name, background, or motive. There is little care for remaining in character. Some in the community may have joke characters or names reflecting of the disregard for immersion.
 
 **Medium Roleplay (MRP)**
 Medium Roleplay puts an emphasis on remaining in character at all times. Characters are limited to fit in within the setting of the roleplay. It is encouraged that characters have a background and story. Canonical consistency between sessions may or may not exist, and often characters are one-off throwaways. Emotive or action descriptor text may take place, but are not regularly used. There may be in-character "metawords" which are stand ins for out-of-character things, or methods of describing out-of-character actions such as keybinds or processes. Generally, the line between OOC and IC are often blurry.
