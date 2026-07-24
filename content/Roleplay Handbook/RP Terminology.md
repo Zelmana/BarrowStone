@@ -37,6 +37,3 @@ Powergaming is similar to Godmodding, but instead of controlling another charact
 ---
 ### Metagrudge
 Metagrudging consists of targeting a player for harassment due to their character's actions. It also covers the inverse of having your character in roleplay target another character due to OOC reasons. To avoid either of these situations, avoid emotional spill-over between IC and OOC in either direction.
-
-
----
