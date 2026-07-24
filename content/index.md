@@ -7,10 +7,6 @@ noteOrder: "1"
 tags:
 note: npx quartz sync in WebBarrowStone dir.
 ---
-This is the main page for Barrowstone, testing the new deployment via a symlinked file system.
+BarrowStone is a text-based RP system designed for use with Discord. It focuses on player driven narrative and attempts to balance that with faction mechanics and dungeon delving.
 
-
-tupperbox
-
-
-Far Near Close Near Far
+This wiki is a crude work in progress.
