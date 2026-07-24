@@ -16,6 +16,9 @@ The Yang to IC Ying. This refers to things that are outside of the "theater of t
 ### IC in OOC
 As the term implies, IC in OOC refers to revealing **sensitive or secretive** in character information to the out of character discussion chats, including DMs. This should be discouraged in general, and use of IC information acquired via OOC is a form of Metagaming.
 
+---
+### OOC in IC
+OOC in IC is the opposite of IC in OOC. It refers to injecting OOC context, words, or concepts into the roleplay environment. This category of things include referring to mundane out of character concepts in character, such as needing to step away to do X task OOCly, or similar. If you need to communicate OOC concepts, do so via OOC channels of communication, including breaks in RP or referring to OOC things.
 
 ---
 ### Metagaming / Metaknowledge
